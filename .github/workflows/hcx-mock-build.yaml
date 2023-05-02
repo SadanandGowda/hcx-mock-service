@@ -5,10 +5,10 @@ on:
     inputs:
       repo:
         description: Custom build repository to be used
-        required: true
+        required: false
       branch:
         description: Custom build branch to be used
-        required: true
+        required: false
 jobs:
   deploy:
     runs-on: ubuntu-latest
